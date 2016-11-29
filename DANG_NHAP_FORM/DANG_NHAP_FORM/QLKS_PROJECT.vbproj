@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16AD8BE9-A6D7-42E5-ACEF-0FBECFAD44E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DANG_NHAP_FORM.My.MyApplication</StartupObject>
+    <RootNamespace>DANG_NHAP_FORM</RootNamespace>
+    <AssemblyName>DANG_NHAP_FORM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DANG_NHAP_FORM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DANG_NHAP_FORM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v16.1.UI, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Snap.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Snap.v16.1.Extensions, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1.UI, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.UI, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.Wizard, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v16.1.Extensions, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1.Extensions, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\Theme Software\MetroFramework.ModernUI.Version.1.4.0\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\..\Theme Software\MetroFramework.ModernUI.Version.1.4.0\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\..\Theme Software\MetroFramework.ModernUI.Version.1.4.0\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include=".Designer.vb">
+      <DependentUpon>.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPNHATKH.Designer.vb">
+      <DependentUpon>CAPNHATKH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CAPNHATKH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPNHATNV.Designer.vb">
+      <DependentUpon>CAPNHATNV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CAPNHATNV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DANG_NHAP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DANG_NHAP.Designer.vb">
+      <DependentUpon>DANG_NHAP.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOANHTHU.Designer.vb">
+      <DependentUpon>DOANHTHU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DOANHTHU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOILOAIPHONG.Designer.vb">
+      <DependentUpon>DOILOAIPHONG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DOILOAIPHONG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GIOITHIEU.Designer.vb">
+      <DependentUpon>GIOITHIEU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GIOITHIEU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupBoxBorder.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KHACHHANG.Designer.vb">
+      <DependentUpon>KHACHHANG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KHACHHANG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PHONG.Designer.vb">
+      <DependentUpon>PHONG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PHONG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLDICHVU.Designer.vb">
+      <DependentUpon>QLDICHVU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QLDICHVU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNHANVIEN.Designer.vb">
+      <DependentUpon>QLNHANVIEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QLNHANVIEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUALOAIDV.Designer.vb">
+      <DependentUpon>SUALOAIDV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SUALOAIDV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUATENDV.Designer.vb">
+      <DependentUpon>SUATENDV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SUATENDV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="THANHTOAN.Designer.vb">
+      <DependentUpon>THANHTOAN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="THANHTOAN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="THAYDOIMK.Designer.vb">
+      <DependentUpon>THAYDOIMK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="THAYDOIMK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="THEMLOAIDV.Designer.vb">
+      <DependentUpon>THEMLOAIDV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="THEMLOAIDV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="THEMMOIDICHVU.Designer.vb">
+      <DependentUpon>THEMMOIDICHVU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="THEMMOIDICHVU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="THEMSANPHAM_DV.Designer.vb">
+      <DependentUpon>THEMSANPHAM_DV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="THEMSANPHAM_DV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRANGCHINH-CON.Designer.vb">
+      <DependentUpon>TRANGCHINH-CON.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TRANGCHINH-CON.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRANG_CHINH.Designer.vb">
+      <DependentUpon>TRANG_CHINH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TRANG_CHINH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaterMark_LOGIN.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms.vb" />
+    <Compile Include="_HOTEL_MANAGEMENTDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_HOTEL_MANAGEMENTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_HOTEL_MANAGEMENTDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_HOTEL_MANAGEMENTDataSet1.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include=".resx">
+      <DependentUpon>.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPNHATKH.resx">
+      <DependentUpon>CAPNHATKH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPNHATNV.resx">
+      <DependentUpon>CAPNHATNV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DANG_NHAP.resx">
+      <DependentUpon>DANG_NHAP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOANHTHU.resx">
+      <DependentUpon>DOANHTHU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOILOAIPHONG.resx">
+      <DependentUpon>DOILOAIPHONG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GIOITHIEU.resx">
+      <DependentUpon>GIOITHIEU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KHACHHANG.resx">
+      <DependentUpon>KHACHHANG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHONG.resx">
+      <DependentUpon>PHONG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLDICHVU.resx">
+      <DependentUpon>QLDICHVU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNHANVIEN.resx">
+      <DependentUpon>QLNHANVIEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUALOAIDV.resx">
+      <DependentUpon>SUALOAIDV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUATENDV.resx">
+      <DependentUpon>SUATENDV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THANHTOAN.resx">
+      <DependentUpon>THANHTOAN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THAYDOIMK.resx">
+      <DependentUpon>THAYDOIMK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THEMLOAIDV.resx">
+      <DependentUpon>THEMLOAIDV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THEMMOIDICHVU.resx">
+      <DependentUpon>THEMMOIDICHVU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THEMSANPHAM_DV.resx">
+      <DependentUpon>THEMSANPHAM_DV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRANGCHINH-CON.resx">
+      <DependentUpon>TRANGCHINH-CON.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRANG_CHINH.resx">
+      <DependentUpon>TRANG_CHINH.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_HOTEL_MANAGEMENTDataSet.xsc">
+      <DependentUpon>_HOTEL_MANAGEMENTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_HOTEL_MANAGEMENTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_HOTEL_MANAGEMENTDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_HOTEL_MANAGEMENTDataSet.xss">
+      <DependentUpon>_HOTEL_MANAGEMENTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_HOTEL_MANAGEMENTDataSet1.xsc">
+      <DependentUpon>_HOTEL_MANAGEMENTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_HOTEL_MANAGEMENTDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_HOTEL_MANAGEMENTDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_HOTEL_MANAGEMENTDataSet1.xss">
+      <DependentUpon>_HOTEL_MANAGEMENTDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hotel_final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\System.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\System1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\introduce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Insert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hotel_final-MINI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2---copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOTEL1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editing-Edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy icon%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter-icon-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

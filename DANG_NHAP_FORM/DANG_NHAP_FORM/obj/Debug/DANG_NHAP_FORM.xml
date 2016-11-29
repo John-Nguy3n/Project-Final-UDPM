@@ -1,0 +1,841 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DANG_NHAP_FORM
+</name>
+</assembly>
+<members>
+<member name="T:DANG_NHAP_FORM.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources._2___copia">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Account">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.chart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.copy_icon_1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Editing_Edit_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.facebook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.filter_icon_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.help">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Hotel_final_MINI">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Hotel_final1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.HOTEL1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Insert">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.introduce">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Manage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Password">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Password1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.PC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.search_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.Settings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.System">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.System1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.twitter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.v">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DANG_NHAP_FORM.My.Resources.Resources.x">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.CHI_TIET_HDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.DICH_VUDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.GIA_DICH_VU_THEO_NGAYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.GIA_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.HOA_DONDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.KHACH_HANGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.LOAI_DICH_VUDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.LOAI_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.NHAN_VIENDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.PHIEU_DAT_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.PHIEU_QL_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.THIET_BIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.TINH_TRANG_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.UsersystemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.CHI_TIET_HDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.DICH_VURow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.GIA_DICH_VU_THEO_NGAYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.GIA_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.HOA_DONRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.KHACH_HANGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.LOAI_DICH_VURow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.LOAI_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.NHAN_VIENRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.PHIEU_DAT_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.PHIEU_QL_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.THIET_BIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.TINH_TRANG_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.UsersystemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.CHI_TIET_HDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.DICH_VURowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.GIA_DICH_VU_THEO_NGAYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.GIA_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.HOA_DONRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.KHACH_HANGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.LOAI_DICH_VURowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.LOAI_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.NHAN_VIENRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.PHIEU_DAT_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.PHIEU_QL_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.THIET_BIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.TINH_TRANG_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet.UsersystemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.CHI_TIET_HDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.DICH_VUTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.GIA_DICH_VU_THEO_NGAYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.GIA_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.HOA_DONTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.KHACH_HANGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.LOAI_DICH_VUTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.LOAI_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.NHAN_VIENTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.PHIEU_DAT_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.PHIEU_QL_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.THIET_BITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.TINH_TRANG_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.UsersystemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.TableAdapterManager.UpdateAll(DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.CHI_TIET_HDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.DICH_VUDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.GIA_DICH_VU_THEO_NGAYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.GIA_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.HOA_DONDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.KHACH_HANGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.LOAI_DICH_VUDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.LOAI_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.NHAN_VIENDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.PHIEU_DAT_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.PHIEU_QL_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.THIET_BIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.TINH_TRANG_PHONGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.UsersystemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.CHI_TIET_HDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.DICH_VURow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.GIA_DICH_VU_THEO_NGAYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.GIA_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.HOA_DONRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.KHACH_HANGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.LOAI_DICH_VURow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.LOAI_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.NHAN_VIENRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.PHIEU_DAT_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.PHIEU_QL_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.THIET_BIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.TINH_TRANG_PHONGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.UsersystemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.CHI_TIET_HDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.DICH_VURowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.GIA_DICH_VU_THEO_NGAYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.GIA_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.HOA_DONRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.KHACH_HANGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.LOAI_DICH_VURowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.LOAI_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.NHAN_VIENRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.PHIEU_DAT_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.PHIEU_QL_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.THIET_BIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.TINH_TRANG_PHONGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1.UsersystemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.CHI_TIET_HDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.DICH_VUTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.GIA_DICH_VU_THEO_NGAYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.GIA_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.HOA_DONTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.KHACH_HANGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.LOAI_DICH_VUTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.LOAI_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.NHAN_VIENTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.PHIEU_DAT_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.PHIEU_QL_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.THIET_BITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.TINH_TRANG_PHONGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.UsersystemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.TableAdapterManager.UpdateAll(DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DANG_NHAP_FORM._HOTEL_MANAGEMENTDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
